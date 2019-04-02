@@ -1,0 +1,15 @@
+C:\Projekt\net\net-tdd\net-tdd\bin\Debug\NUnit3.TestAdapter.dll
+C:\Projekt\net\net-tdd\net-tdd\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Projekt\net\net-tdd\net-tdd\bin\Debug\nunit.engine.dll
+C:\Projekt\net\net-tdd\net-tdd\bin\Debug\nunit.engine.api.dll
+C:\Projekt\net\net-tdd\net-tdd\bin\Debug\net-tdd.exe.config
+C:\Projekt\net\net-tdd\net-tdd\bin\Debug\net-tdd.exe
+C:\Projekt\net\net-tdd\net-tdd\bin\Debug\net-tdd.pdb
+C:\Projekt\net\net-tdd\net-tdd\bin\Debug\nunit.framework.dll
+C:\Projekt\net\net-tdd\net-tdd\bin\Debug\nunit.framework.pdb
+C:\Projekt\net\net-tdd\net-tdd\bin\Debug\nunit.framework.xml
+C:\Projekt\net\net-tdd\net-tdd\obj\Debug\net-tdd.csprojAssemblyReference.cache
+C:\Projekt\net\net-tdd\net-tdd\obj\Debug\net-tdd.csproj.CoreCompileInputs.cache
+C:\Projekt\net\net-tdd\net-tdd\obj\Debug\net-tdd.csproj.CopyComplete
+C:\Projekt\net\net-tdd\net-tdd\obj\Debug\net-tdd.exe
+C:\Projekt\net\net-tdd\net-tdd\obj\Debug\net-tdd.pdb
