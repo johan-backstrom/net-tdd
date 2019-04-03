@@ -9,6 +9,7 @@
 
 ### Börja med att lägga till följande i Test projektet
 install-package NUnit -Version 3.8.1
+
 install-package NUnit3TestAdapter -Version 3.8.0 
 
 # Agenda
@@ -68,6 +69,8 @@ Utveckling av en nya funktioner sker genom följande steg:
 
 https://upload.wikimedia.org/wikipedia/commons/0/0b/TDD_Global_Lifecycle.png
 
+![TDD-desciprion](https://upload.wikimedia.org/wikipedia/commons/0/0b/TDD_Global_Lifecycle.png)
+
 ### Demo
 
 Bygga en kalkylator med TDD.
@@ -97,12 +100,13 @@ Introduktion:
 - Dependency injection-ish
 - In memory DB (t.ex. H2)
 
+Det är viktigt att man bryter ner saker på rätt sätt för att skapa
+"testbarhet". Det betyder att man skriver metoder som fokar på att lösa 
+ett problem med väldefinierad avgränsning.
+
+Min lilla tumregel här är egentligen bara att "new" ofta leder fel...
+
 ### Lab 3
-
-!!! Viktigt:
-
-Förklara hur man ska bryta ner. "new" leder fel...
-
 
 Skapa funktionalitet som läser en fil innehållande fordon
 från resources-foldern, räknar ut försäkringspremien enligt 
@@ -114,7 +118,7 @@ Filen är på följande format:
 
 En testfil finns i src/test/resources/cars.txt.
 
-Vi har en fejkad databas där man kan persistera VehiclePrmium-objekt och 
+Vi har en fejkad databas där man kan persistera VehiclePremium-objekt och 
 som man interagerar med genom klassen DatabaseClient.
 
 Filen ska behandlas enligt enligt följande krav:
@@ -129,7 +133,6 @@ Tips:
 - Det finns en färdig DB-klient i klassen DatabaseClient
 - Det finns en färdig metod för att läsa filer i klassen FileReadingUtility
 - Dela upp de olika stegen i olika metoder
-- "new" är djävulens påfund! :-)
     
 ## Testabstraktioner
 
