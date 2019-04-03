@@ -7,6 +7,10 @@
 - Grundläggande kunskaper i unit-testing-verktyg som JUnit eller NUnit.
 - Grundläggande kunskaper i objektorienterad programmering (Java eller C#)
 
+### Börja med att lägga till
+install-package NUnit -Version 3.8.1
+install-package NUnit3TestAdapter -Version 3.8.0 
+
 # Agenda
 
 ## Introduktion till testautomation
