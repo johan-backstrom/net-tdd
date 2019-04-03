@@ -7,7 +7,9 @@
 - Grundläggande kunskaper i unit-testing-verktyg som JUnit eller NUnit.
 - Grundläggande kunskaper i objektorienterad programmering (Java eller C#)
 
-### Börja med att lägga till följande i Test projektet
+### Börja med att lägga till följande
+(Öppna Package Manager Console och klicka på "Default project" och välj "Test")
+
 install-package NUnit -Version 3.8.1
 
 install-package NUnit3TestAdapter -Version 3.8.0 

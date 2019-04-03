@@ -46,7 +46,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="se.claremont\FileReadingUtilityTest.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="cars.txt" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\net-tdd\net-tdd.csproj">
       <Project>{0AF5D32C-56C0-4D8D-8234-A6FEA2C9F7AF}</Project>
